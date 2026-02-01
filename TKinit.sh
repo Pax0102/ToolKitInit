@@ -10,7 +10,7 @@ Initialize() {
 }
 
 if [[ ! -f "ToolKit" ]]; then
-Initialize
-else
 Download
+else
+Initialize
 fi
